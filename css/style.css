@@ -18,6 +18,7 @@ body {
 
 .container {
   margin: 0 100px;
+  padding-bottom: 120px; /* Adjust this value based on the height of the bottom nav */
 }
 
 h1 {

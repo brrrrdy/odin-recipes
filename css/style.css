@@ -3,6 +3,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -14,12 +15,15 @@ html {
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
+  flex: 1;
   margin: 0 100px;
-  padding-bottom: 120px; /* Adjust this value based on the height of the bottom nav */
+  padding-bottom: 20px; 
 }
 
 h1 {
@@ -70,9 +74,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #ccc;
-  position: fixed;
-  bottom: 0;
-  left: 0;
 }
 
 .bottom-nav-left {
@@ -82,7 +83,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-left: 50px; /* Adjust this to add spacing from the left edge */
+  margin-left: 50px; 
 }
 
 .bottom-nav-left li {

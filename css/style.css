@@ -32,6 +32,15 @@ h1 {
   margin: 20px 0;
 }
 
+.navlist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2;
+  padding: 0;
+  gap: 1em;
+  list-style: none;
+}
+
 .box1 {
   padding: 20px;
 }
